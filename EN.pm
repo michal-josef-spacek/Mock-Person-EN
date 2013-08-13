@@ -24,10 +24,210 @@ our $VERSION = 0.01;
 
 # First and middle male names.
 our @first_male = our @middle_male = qw(
+Aaron
+Adam
+Aidan
+Alex
+Alfie
+Andrew
+Anthony
+Ashley
+Ben
+Bradley
+Brandon
+Callum
+Calum
+Cameron
+Charlie
+Chris
+Connor
+Conor
+Craig
+Curtis
+Dan
+Daniel
+Danny
+Darren
+David
+Declan
+Dylan
+Edward
+Elliot
+Ethan
+George
+Harrison
+Harry
+Henry
+Jack
+Jacob
+Jake
+James
+Jamie
+Jason
+Jay
+Joe
+JOHN
+Jonathan
+Jordan
+Joseph
+Josh
+Joshua
+Kane
+Kieran
+Kyle
+Lee
+Leon
+Lewis
+Liam
+Louis
+Luke
+Marcus
+Mark
+Martin
+Matt
+Matthew
+Max
+Michael
+Mike
+Morgan
+Nathan
+Oli
+Oliver
+Ollie
+Owen
+Patrick
+Paul
+Peter
+Philip
+Reece
+Rhys
+Richard
+Robbie
+Robert
+Ross
+Ryan
+Sam
+Samuel
+Scott
+Sean
+Sebastian
+Shaun
+Simon
+Stephen
+Steve
+Steven
+Stuart
+Taylor
+Thomas
+Tom
+Tyler
+Utku
+Will
+William
 );
 
 # First nad middle female names.
 our @first_female = our @middle_female = qw(
+Abbie
+Abi
+Aimee
+Alex
+Alice
+Amber
+Amelia
+Amy
+Anna
+Annie
+Ashleigh
+Becca
+Becky
+Beth
+Bethan
+Bethany
+Caitlin
+Chantelle
+Charley
+Charlie
+Charlotte
+Chelsea
+Chloe
+Claire
+Courtney
+Daisy
+Ddanielle
+Eleanor
+Elizabeth
+Ella
+Ellie
+Emily
+Emma
+Erin
+Francesca
+Freya
+Gemma
+Georgia
+Georgina
+Grace
+Hannah
+Hayley
+Heather
+Helen
+Holly
+Jade
+Jasmine
+Jennifer
+Jenny
+Jess
+Jessica
+Jodie
+Kate
+Katherine
+Katie
+Katy
+Kayleigh
+Kelly
+Kirsty
+Laura
+Leah
+Leanne
+Lily
+Lisa
+Louise
+Lucy
+Luren
+Lydia
+Megan
+Melissa
+Mia
+Millie
+Mollie
+Molly
+Naomi
+Natalie
+NATASHA
+Niamh
+Nicola
+Nicole
+Olivia
+Paige
+Phoebe
+Rachael
+Rachel
+Rebecca
+Rhiannon
+Robyn
+Rose
+Rosie
+Samantha
+Sara
+Sarah
+Sasha
+Shannon
+Sophie
+Stacey
+Stephanie
+Victoria
+Zoe
 );
 
 # Last names.
@@ -140,8 +340,7 @@ Data for this module was found on these pages:
 
 =item B<Last names>
 
-TODO
-L<about.com|http://german.about.com/od/names/a/German-Surnames.htm>
+L<surnames.behindthename.com|http://surnames.behindthename.com/names/usage/english>
 
 =item B<Middle names>
 
@@ -149,8 +348,8 @@ There's usually no distinction between a first and middle name in England.
 
 =item B<First names>
 
-TODO
-L<indiachildnames.com|http://www.indiachildnames.com/top100/germannames.html>
+Woman: L<jmenaprijmeni.cz|http://www.jmenaprijmeni.cz/anglicka-jmena-zeny>
+Man: L<jmenaprijmeni.cz|http://www.jmenaprijmeni.cz/anglicka-jmena-muzi>
 
 =back
 
