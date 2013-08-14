@@ -23,6 +23,7 @@ meta-spec:
 name: Mock-Person-EN
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
