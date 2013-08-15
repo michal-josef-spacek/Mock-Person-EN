@@ -1319,7 +1319,6 @@ Stern
 Stevens
 Stevenson
 Stidolph
-St John
 Stoddard
 Stone
 Strange
@@ -1412,7 +1411,6 @@ Underhill
 Underwood
 Upton
 Vance
-Van Middlesworth
 Vann
 Varley
 Varnham
@@ -1520,6 +1518,8 @@ Young
 Younge
 Yoxall
 );
+push @last_male, 'St John', 'Van Middlesworth';
+push @last_female, 'St John', 'Van Middlesworth';
 
 # Get random first male name.
 sub first_male {
@@ -2379,7 +2379,6 @@ Returns random female name.
  # Jewel
  # Jewell
  # Jinks
- # John
  # Johns
  # Johnson
  # Joiner
@@ -2512,7 +2511,6 @@ Returns random female name.
  # Michael
  # Michaels
  # Michaelson
- # Middlesworth
  # Midgley
  # Milburn
  # Miles
@@ -2816,7 +2814,7 @@ Returns random female name.
  # Spencer
  # Spooner
  # Spurling
- # St
+ # St John
  # Stacey
  # Stack
  # Stacks
@@ -2929,7 +2927,7 @@ Returns random female name.
  # Underhill
  # Underwood
  # Upton
- # Van
+ # Van Middlesworth
  # Vance
  # Vann
  # Varley
