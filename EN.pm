@@ -17,7 +17,7 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 	name_female);
 
 # Variables.
-our $TYPE = 'three';
+our $TYPE = 'two';
 
 # Version.
 our $VERSION = 0.01;
@@ -1710,7 +1710,7 @@ Returns random female name.
  print encode_utf8(name())."\n";
 
  # Output like.
- # Jack Ryan Hatheway
+ # Mark Parent
 
 =head1 EXAMPLE2
 
