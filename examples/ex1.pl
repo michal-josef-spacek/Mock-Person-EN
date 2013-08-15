@@ -12,4 +12,4 @@ use Mock::Person::EN qw(name);
 print encode_utf8(name())."\n";
 
 # Output like.
-# Jack Ryan Hatheway
+# Mark Parent
