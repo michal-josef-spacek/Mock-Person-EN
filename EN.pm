@@ -1692,7 +1692,7 @@ Returns random female name.
 
  Name type.
  Possible values are: 'two', 'three'.
- Default value is 'three'.
+ Default value is 'two'.
 
 =back
 
