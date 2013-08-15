@@ -646,7 +646,6 @@ print sort map { encode_utf8($_)."\n" } @last_males;
 # Jewel
 # Jewell
 # Jinks
-# John
 # Johns
 # Johnson
 # Joiner
@@ -779,7 +778,6 @@ print sort map { encode_utf8($_)."\n" } @last_males;
 # Michael
 # Michaels
 # Michaelson
-# Middlesworth
 # Midgley
 # Milburn
 # Miles
@@ -1083,7 +1081,7 @@ print sort map { encode_utf8($_)."\n" } @last_males;
 # Spencer
 # Spooner
 # Spurling
-# St
+# St John
 # Stacey
 # Stack
 # Stacks
@@ -1196,7 +1194,7 @@ print sort map { encode_utf8($_)."\n" } @last_males;
 # Underhill
 # Underwood
 # Upton
-# Van
+# Van Middlesworth
 # Vance
 # Vann
 # Varley
