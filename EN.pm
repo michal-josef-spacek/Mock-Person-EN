@@ -1610,7 +1610,7 @@ Mock::Person::EN - Generate random sets of English names.
 =head1 SYNOPSIS
 
  use Mock::Person::EN qw(first_male first_female last_male last_female
-         middle_male middle_female name);
+         middle_male middle_female name name_female name_male);
  my $first_male = first_male();
  my $first_female = first_female();
  my $last_male = last_male();
@@ -1618,6 +1618,8 @@ Mock::Person::EN - Generate random sets of English names.
  my $middle_male = middle_male();
  my $middle_female = middle_female();
  my $name = name($sex);
+ my $female_name = name_female();
+ my $male_name = name_male();
 
 =head1 DESCRIPTION
 
