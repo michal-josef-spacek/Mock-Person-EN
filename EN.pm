@@ -154,7 +154,7 @@ Chloe
 Claire
 Courtney
 Daisy
-Ddanielle
+Danielle
 Eleanor
 Elizabeth
 Ella
