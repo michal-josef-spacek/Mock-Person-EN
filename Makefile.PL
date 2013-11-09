@@ -10,6 +10,7 @@ abstract 'Generate random sets of English names.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-EN';
+readme_from 'EN.pm';
 requires 'Exporter' => 0;
 requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
