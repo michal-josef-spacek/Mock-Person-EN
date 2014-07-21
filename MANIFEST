@@ -17,6 +17,7 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+SIGNATURE
 t/Mock-Person-EN/00-use.t
 t/Mock-Person-EN/01-version.t
 t/Mock-Person-EN/02-pod_coverage.t
