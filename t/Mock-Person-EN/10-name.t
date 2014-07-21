@@ -16,13 +16,15 @@ like($ret1, qr{^\w+\ \w+\ \w+$}, 'Default name must be three words.');
 # Test.
 my @ret = split m/\ /ms, $ret1;
 my @first_males = @Mock::Person::EN::first_male;
-my $ret2 = any { $ret[0] eq $_ } @first_males;
-is($ret2, 1, 'First name is really from first male names.');
+my @first_females = @Mock::Person::EN::first_female;
+my $ret2 = any { $ret[0] eq $_ } @first_males, @first_females;
+is($ret2, 1, 'First name is really from first male/female names.');
 
 # Test.
 my @middle_males = @Mock::Person::EN::middle_male;
-$ret2 = any { $ret[1] eq $_ } @middle_males;
-is($ret2, 1, 'Middle name is really from middle male names.');
+my @middle_females = @Mock::Person::EN::middle_female;
+$ret2 = any { $ret[1] eq $_ } @middle_males, @middle_females;
+is($ret2, 1, 'Middle name is really from middle male/female names.');
 
 # Test.
 my @last_males = @Mock::Person::EN::last_male;
@@ -52,12 +54,10 @@ like($ret1, qr{^\w+\ \w+\ \w+$}, 'Female name must be three words.');
 
 # Test.
 @ret = split m/\ /ms, $ret1;
-my @first_females = @Mock::Person::EN::first_female;
 $ret2 = any { $ret[0] eq $_ } @first_females;
 is($ret2, 1, 'First name is really from first female names.');
 
 # Test.
-my @middle_females = @Mock::Person::EN::middle_female;
 $ret2 = any { $ret[1] eq $_ } @middle_females;
 is($ret2, 1, 'Middle name is really from middle female names.');
 
