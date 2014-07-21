@@ -1,8 +1,10 @@
 TODO
 ====
-1. Vylepsit testy, protoze prijmeni muze byt ze dvou slov a pak to neprojde
-   testy.
 2.
 
 Applied
 =======
+1. Vylepsit testy, protoze prijmeni muze byt ze dvou slov a pak to neprojde
+   testy.
+Opraven test, aby se testovala verze se tremi jmeny.
+OK [20140721] skim

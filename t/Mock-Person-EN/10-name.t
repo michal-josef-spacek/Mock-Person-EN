@@ -9,6 +9,7 @@ use Test::More 'tests' => 13;
 use Test::NoWarnings;
 
 # Test.
+$Mock::Person::EN::TYPE = 'three';
 my $ret1 = name();
 like($ret1, qr{^\w+\ \w+\ \w+$}, 'Default name must be three words.');
 
