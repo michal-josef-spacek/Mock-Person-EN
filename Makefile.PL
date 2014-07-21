@@ -14,6 +14,7 @@ readme_from 'EN.pm';
 requires 'Exporter' => 0;
 requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
+requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Mock-Person-EN';
 resources 'homepage' => 'https://github.com/tupinek/Mock-Person-EN';
