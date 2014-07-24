@@ -862,7 +862,6 @@ print sort map { encode_utf8($_)."\n" } @last_males;
 # Paternoster
 # Paterson
 # Patrick
-# Patrick.
 # Patrickson
 # Patterson
 # Patton

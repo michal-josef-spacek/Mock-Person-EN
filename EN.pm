@@ -1073,7 +1073,6 @@ Palmer
 Parent
 Paris
 Parish
-Patrick.
 Parker
 Parris
 Parsons
@@ -2597,7 +2596,6 @@ Returns random female name.
  # Paternoster
  # Paterson
  # Patrick
- # Patrick.
  # Patrickson
  # Patterson
  # Patton
