@@ -1,4 +1,5 @@
 0.03
+ - Update Module::Install to 1.10 version.
 
 0.02 2014-07-24T08:14:53+02:00
  - Fix list of last names.
