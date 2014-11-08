@@ -66,7 +66,7 @@ Jamie
 Jason
 Jay
 Joe
-JOHN
+John
 Jonathan
 Jordan
 Joseph
