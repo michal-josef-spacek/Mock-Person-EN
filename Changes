@@ -1,5 +1,6 @@
 0.03
  - Fix JOHN to John.
+ - Fix NATASHA to Natasha.
  - Update Module::Install to 1.14 version.
 
 0.02 2014-07-24T08:14:53+02:00
