@@ -14,44 +14,44 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c269aa4714979b74f3f32b2b27459de82aa58f2c Changes
-SHA1 82c4100d61b6eadd6038cd53c686d8a66a0426b0 EN.pm
+SHA1 fa293dfb0a40f7dc1d96040ef2a853303a54c6a6 Changes
+SHA1 cad3ccc26474f026168c410cdb2f40bb79817c35 EN.pm
 SHA1 d32d1b957eb6d99bd7b76fd8c33dac3bed505f96 LICENSE
 SHA1 7c8927a24d7647664d23dda6cbb2a78f1815ccec MANIFEST
-SHA1 86534d0babb8c3165b883787e4fb228795d2270f META.yml
-SHA1 663a3dec0d6d477b36a8625e4c07901c925722c4 Makefile.PL
-SHA1 437e684a20ef61f2bf33523c5396815f65bcfb64 README
+SHA1 a0afca8ef7adfb56463f1704b704c162a5da0a75 META.yml
+SHA1 0fc62005389486e2d068deeedb4b50d4e8c40d0a Makefile.PL
+SHA1 3a962424b644f1af7005848846eb3070a7fda568 README
 SHA1 e18e276d2d928c06207d06dc784180349df3e7f0 examples/ex1.pl
 SHA1 aaecb49d4d75c251478344693fc40ed061c93ef2 examples/ex2.pl
 SHA1 44f6a58ad028addec66b472c275fad4972dd0c87 examples/ex3.pl
-SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
-SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
-SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
-SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
-SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
-SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
-SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
 SHA1 fe9ba07cb65c8967a37afad626ffc8a5d397cf62 t/Mock-Person-EN/00-use.t
-SHA1 d6990e5ce59281a3b07841dda5a4bc59d5f6cea3 t/Mock-Person-EN/01-version.t
+SHA1 e68b136f1600b69e591aaec8f4b5a3296acceca9 t/Mock-Person-EN/01-version.t
 SHA1 e12293c00807940f40080d9986d70c904b490769 t/Mock-Person-EN/02-pod_coverage.t
 SHA1 d091bbe745fea7235119f529976bb64c88d3416e t/Mock-Person-EN/03-pod.t
 SHA1 7632c8e945c6212d5b760976635b642114d21137 t/Mock-Person-EN/04-first_male.t
 SHA1 9600744aa8bbbf84c9180d773058b520925e18c3 t/Mock-Person-EN/05-first_female.t
-SHA1 2f38d71ac0abe7a2d245bda9afd21962fff15dad t/Mock-Person-EN/06-last_male.t
-SHA1 36124947033dfe73c0e50aa84a8b6e548e0b3826 t/Mock-Person-EN/07-last_female.t
+SHA1 dfa2b2f7e8710547389aadc21f60ccf79ba2b7dc t/Mock-Person-EN/06-last_male.t
+SHA1 2157d1169ec1552f8ec9640a275a3bce8eea4f87 t/Mock-Person-EN/07-last_female.t
 SHA1 a69e85cca0b8fbf33a8d5ccd1bf96e8cded6d398 t/Mock-Person-EN/08-middle_male.t
 SHA1 8eeba1fb6f27c4b54638608a52354b8b5ff42ada t/Mock-Person-EN/09-middle_female.t
-SHA1 f9b6a4c27463e5673b979940a1e7a7ea1d73fe68 t/Mock-Person-EN/10-name.t
+SHA1 3482ce2a1ed9e0ded679a27d2085dd2af22eca02 t/Mock-Person-EN/10-name.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJT0KRgAAoJEAwa+cf4dLBajZIH/2q/B7v05Xe65FPGTTY2cOqY
-lPj/ifsK6dqRwwFfR8k9YCi/7kzLp72YjIxmGZTW60ldoIwbLgWhxZt/jfzG96bW
-Opd2/3Cc+YQWG1WujiSxD0X8UYaK53FuWDLzY/+RlLonrn7D2JyOa/Z0yM9mtD7r
-MjPdpEaVWVftNsExYwGmjHiV0VLY7ke8zgpOkbgJlrXRWeLoqCnKxvbuJDMNuv/7
-RK1qrsjZ5x6IOVqT7lhR6VF+BwRZ7tD6ACZvcOa7cGoreS/+Z+257fcaryPKbcQB
-z2mFiJ9kw7JwEgBJm2PDIAwPosZ9PmAtWm2+DJn4fCGpNpzFOgIJSw5dSG/S99Y=
-=wmet
+iQEcBAEBAgAGBQJUXtBcAAoJEAwa+cf4dLBaIyQIANHF5BsAMHbJDxQgAETqhFwy
+l2a2UcBDNwMjIQIhar/DhEbFUlKoteyDQXTMRUk9I+S5xj4OHy1qAjzECtMYQbOD
+EaqVdSgxaRUow12NeSRZqoEPOdZxX+ZRr/a+3m2pvnfOvsNAYKGr/QRsZ6NpvbTY
+jK4ef40LCPkvaNWeWF5V3tYjW305/WuRBiq7jyD2szFJ0zjQgA4vhi6PuO/p1IyP
+1MyRZNKHReXwzkmfEre85GvvrMf4G9uEMjo0jOcEUOFjK573xElOOWTzD17kDmkr
+UKDOjSAVgzT9LnmXCnm+fbjF7Lz18XdT9eGKOKIPO+GFLNGq1szXZz3TTrFC37A=
+=N2I3
 -----END PGP SIGNATURE-----
