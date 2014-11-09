@@ -10,7 +10,7 @@ use Test::NoWarnings;
 
 # Test.
 my $ret1 = last_female();
-like($ret1, qr{^\w+$}, 'Last female must be one word.');
+like($ret1, qr{^\w+\ ?\w+?$}, 'Last female must be one or two word.');
 
 # Test.
 my @last_females = @Mock::Person::EN::last_female;

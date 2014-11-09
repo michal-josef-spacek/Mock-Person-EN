@@ -1,6 +1,7 @@
 0.03
  - Fix JOHN to John.
  - Fix NATASHA to Natasha.
+ - Fix tests for 3/4 word names.
  - Update Module::Install to 1.14 version.
 
 0.02 2014-07-24T08:14:53+02:00

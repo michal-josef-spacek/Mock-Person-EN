@@ -11,10 +11,14 @@ use Test::NoWarnings;
 # Test.
 $Mock::Person::EN::TYPE = 'three';
 my $ret1 = name();
-like($ret1, qr{^\w+\ \w+\ \w+$}, 'Default name must be three words.');
+like($ret1, qr{^\w+\ \w+\ \w+\ ?\w+?$},
+	'Default name must be three or four words.');
 
 # Test.
 my @ret = split m/\ /ms, $ret1;
+if (@ret == 4) {
+	@ret = split m/\ /ms, $ret1, 3;
+}
 my @first_males = @Mock::Person::EN::first_male;
 my @first_females = @Mock::Person::EN::first_female;
 my $ret2 = any { $ret[0] eq $_ } @first_males, @first_females;
@@ -33,10 +37,14 @@ is($ret2, 1, 'Last name is really from last male names.');
 
 # Test.
 $ret1 = name('male');
-like($ret1, qr{^\w+\ \w+\ \w+$}, 'Male name must be three words.');
+like($ret1, qr{^\w+\ \w+\ \w+\ ?\w+?$},
+	'Male name must be three or four words.');
 
 # Test.
 @ret = split m/\ /ms, $ret1;
+if (@ret == 4) {
+	@ret = split m/\ /ms, $ret1, 3;
+}
 $ret2 = any { $ret[0] eq $_ } @first_males;
 is($ret2, 1, 'First name is really from first male names.');
 
@@ -50,10 +58,13 @@ is($ret2, 1, 'Last name is really from last male names.');
 
 # Test.
 $ret1 = name('female');
-like($ret1, qr{^\w+\ \w+\ \w+$}, 'Female name must be three words.');
+like($ret1, qr{^\w+\ \w+\ \w+\ ?\w+?$}, 'Female name must be three words.');
 
 # Test.
 @ret = split m/\ /ms, $ret1;
+if (@ret == 4) {
+	@ret = split m/\ /ms, $ret1, 3;
+}
 $ret2 = any { $ret[0] eq $_ } @first_females;
 is($ret2, 1, 'First name is really from first female names.');
 

@@ -10,7 +10,7 @@ use Test::NoWarnings;
 
 # Test.
 my $ret1 = last_male();
-like($ret1, qr{^\w+$}, 'Last male must be one word.');
+like($ret1, qr{^\w+\ ?\w+?$}, 'Last male must be one or two words.');
 
 # Test.
 my @last_males = @Mock::Person::EN::last_male;
