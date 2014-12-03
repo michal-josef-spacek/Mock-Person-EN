@@ -126,7 +126,7 @@ Will
 William
 );
 
-# First nad middle female names.
+# First and middle female names.
 our @first_female = our @middle_female = qw(
 Abbie
 Abi
