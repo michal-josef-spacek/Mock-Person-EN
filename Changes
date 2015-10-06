@@ -3,6 +3,7 @@
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SEE ALSO section in doc.
  - Move author tests to xt/ directory.
+ - Rewrite B<> to C<> on subroutines and variables.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
 

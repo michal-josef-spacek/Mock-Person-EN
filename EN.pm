@@ -1645,41 +1645,41 @@ Man: L<jmenaprijmeni.cz|http://www.jmenaprijmeni.cz/anglicka-jmena-muzi>
 
 =over 8
 
-=item B<first_male()>
+=item C<first_male()>
 
 Returns random first name of male person.
 
-=item B<first_female()>
+=item C<first_female()>
 
 Returns random first name of female person.
 
-=item B<last_male()>
+=item C<last_male()>
 
 Returns random last name of male person.
 
-=item B<last_female()>
+=item C<last_female()>
 
 Returns random last name of female person.
 
-=item B<middle_male()>
+=item C<middle_male()>
 
 Returns random middle name of male person.
 
-=item B<middle_female()>
+=item C<middle_female()>
 
 Returns random middle name of female person.
 
-=item B<name([$sex])>
+=item C<name([$sex])>
 
 Recieves scalar with sex of the person ('male' or 'female') and returns
 scalar with generated name.
 Default value of $sex variable is undef, that means random name.
 
-=item B<name_male()>
+=item C<name_male()>
 
 Returns random male name.
 
-=item B<name_female()>
+=item C<name_female()>
 
 Returns random female name.
 
@@ -1689,7 +1689,7 @@ Returns random female name.
 
 =over 8
 
-=item B<TYPE>
+=item C<TYPE>
 
  Name type.
  Possible values are: 'two', 'three'.
