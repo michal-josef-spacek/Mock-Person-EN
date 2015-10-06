@@ -1406,8 +1406,8 @@ DEPENDENCIES
     Exporter, List::MoreUtils, Readonly.
 
 SEE ALSO
-    Mock::Person, Mock::Person::CZ, Mock::Person::DE, Mock::Person::SK,
-    Mock::Person::SK::ROM, Mock::Person::SV, Mock::Person::RU.
+    Task::Mock::Person
+        Install the Mock::Person modules.
 
 REPOSITORY
     <https://github.com/tupinek/Mock-Person-EN>

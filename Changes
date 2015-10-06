@@ -1,5 +1,6 @@
 0.04
  - Fix comment (thanks Mohammad S Anwar).
+ - Improve SEE ALSO section in doc.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
 
