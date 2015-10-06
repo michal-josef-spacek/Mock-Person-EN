@@ -1,6 +1,7 @@
 0.04
  - Fix comment (thanks Mohammad S Anwar).
  - Update Module::Install to 1.16 version.
+ - Update copyright years.
 
 0.03 2014-11-09T03:24:25+01:00
  - Fix JOHN to John.
