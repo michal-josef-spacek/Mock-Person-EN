@@ -1,4 +1,4 @@
-0.05
+0.05 2023-11-27T17:34:28+01:00
  - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
