@@ -5,7 +5,7 @@ use strict;
 use utf8;
 use warnings;
 
-use List::MoreUtils qw(none);
+use List::Util 1.33 qw(none);
 use Readonly;
 
 # Constants.
@@ -3037,7 +3037,7 @@ Returns random female name.
 =head1 DEPENDENCIES
 
 L<Exporter>,
-L<List::MoreUtils>,
+L<List::Util>,
 L<Readonly>.
 
 =head1 SEE ALSO

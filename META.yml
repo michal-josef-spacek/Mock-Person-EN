@@ -4,7 +4,7 @@ author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
-  List::MoreUtils: 0
+  List::Util: 1.33
   Test::More: 0
   Test::NoWarnings: 0
 configure_requires:
@@ -25,7 +25,7 @@ no_index:
     - xt
 requires:
   Exporter: 0
-  List::MoreUtils: 0
+  List::Util: 1.33
   Readonly: 0
   perl: 5.8.0
 resources:

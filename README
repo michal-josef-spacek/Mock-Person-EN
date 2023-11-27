@@ -1398,7 +1398,7 @@ EXAMPLE3
      # Yoxall
 
 DEPENDENCIES
-    Exporter, List::MoreUtils, Readonly.
+    Exporter, List::Util, Readonly.
 
 SEE ALSO
     Task::Mock::Person
