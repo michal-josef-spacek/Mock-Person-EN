@@ -17,7 +17,7 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 # Variables.
 our $TYPE = 'two';
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 # First and middle male names.
 our @first_male = our @middle_male = qw(
@@ -3068,6 +3068,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.05
+0.06
 
 =cut
