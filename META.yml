@@ -29,7 +29,7 @@ requires:
   Readonly: 0
   perl: 5.8.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-EN
+  bugtracker: https://github.com/michal-josef-spacek/Mock-Person-EN/issues
   homepage: https://github.com/michal-josef-spacek/Mock-Person-EN
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/Mock-Person-EN

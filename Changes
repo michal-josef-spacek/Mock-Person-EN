@@ -1,4 +1,5 @@
 0.05
+ - Move bugtracker to github.
  - Update Module::Install to 1.21 version.
  - Update author github username.
 
