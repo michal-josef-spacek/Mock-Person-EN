@@ -67,11 +67,9 @@ VARIABLES
              Default value is 'two'.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::EN qw(name);
 
@@ -82,11 +80,9 @@ EXAMPLE1
      # Mark Parent
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::EN qw(name);
 
@@ -100,11 +96,9 @@ EXAMPLE2
      # Jack Ryan Hatheway
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::EN;
 

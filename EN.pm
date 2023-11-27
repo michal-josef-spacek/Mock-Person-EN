@@ -1,12 +1,10 @@
 package Mock::Person::EN;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use utf8;
 use warnings;
 
-# Modules.
 use List::MoreUtils qw(none);
 use Readonly;
 
@@ -19,7 +17,6 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 # Variables.
 our $TYPE = 'two';
 
-# Version.
 our $VERSION = 0.05;
 
 # First and middle male names.
@@ -1699,11 +1696,9 @@ Returns random female name.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Encode qw(encode_utf8);
  use Mock::Person::EN qw(name);
 
@@ -1715,11 +1710,9 @@ Returns random female name.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Encode qw(encode_utf8);
  use Mock::Person::EN qw(name);
 
@@ -1734,11 +1727,9 @@ Returns random female name.
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Encode qw(encode_utf8);
  use Mock::Person::EN;
 
