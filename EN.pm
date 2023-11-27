@@ -1607,6 +1607,7 @@ Mock::Person::EN - Generate random sets of English names.
 
  use Mock::Person::EN qw(first_male first_female last_male last_female
          middle_male middle_female name name_female name_male);
+
  my $first_male = first_male();
  my $first_female = first_female();
  my $last_male = last_male();
