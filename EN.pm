@@ -1697,6 +1697,8 @@ Returns random female name.
 
 =head1 EXAMPLE1
 
+=for comment filename=print_random_english_name.pl
+
  use strict;
  use warnings;
 
@@ -1710,6 +1712,8 @@ Returns random female name.
  # Mark Parent
 
 =head1 EXAMPLE2
+
+=for comment filename=print_random_english_name_with_middle.pl
 
  use strict;
  use warnings;
@@ -1727,6 +1731,8 @@ Returns random female name.
  # Jack Ryan Hatheway
 
 =head1 EXAMPLE3
+
+=for comment filename=list_last_male_names.pl
 
  use strict;
  use warnings;
